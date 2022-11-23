@@ -1,0 +1,77 @@
+ body{
+    text-align: center;
+ }
+ .searchItem{
+    display: flex;
+    justify-content:center;
+
+ }
+ .search{
+    margin-right: 50px;
+ }
+ .heading{
+    font-family: cursive;
+    margin: 76px 0;
+    font-size: 46px;
+    color: red;
+ }
+ .searchItem .search input{
+    width: 400px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: none;
+    background-color: lightGray;
+    font-size: 17px;
+    outline: none;
+    font-family:cursive;
+ }
+ .searchItem .search button{
+    padding: 14px 25px;
+    background-color: lightGray;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family:cursive;
+ }
+
+  .searchItem .history button{
+      padding: 14px 30px;
+      background-color: lightGray;
+      border: none;
+      cursor: pointer;
+      font-size: 17px;
+      border-radius: 9px;
+      font-family:cursive;
+  }
+  table tr:first-child{
+    text-align:center;
+  }
+  table tr:first-child td{
+    font-size: 20px;
+    font-weight: bold;
+    color: maroon;
+  }
+
+  table a{
+      color: gray;
+      font-family: cursive;
+    }
+
+  table{
+   margin: auto;
+   margin-top: 15px;
+  }
+  table td{
+    padding: 6px 7px;
+    border: none;
+    border: 1px solid green;
+  }
+
+.searchResult{
+    margin: 20px;
+    font-size: 35px;
+    font-family: cursive;
+    color: skyBlue;
+}
